@@ -12,9 +12,11 @@ const gfs = GFS_Didot({
 
 export default function Home() {
   return (
-    <main className={`${gfs.className} flex`}>
-      <div class="bg-white border-r  p-6  border-[#D3D3D3] flex flex-col">
-        <h1 className="text-2xl text-center mb-10 title">Jason Ouyang</h1>
+    <main className={`${gfs.className} bg-indigo flex`}>
+      <div class="bg-sky p-6 flex flex-col">
+        <h1 className="text-2xl mt-6 text-center text-white mb-10 title">
+          Jason Ouyang
+        </h1>
         <div className="flex flex-col">
           <div className="mb-2 flex justify-center  p-2 ">
             <FontAwesomeIcon icon={faGithub} style={{ width: "35" }} />
@@ -27,7 +29,16 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div class="w-4/5"></div>
+      <div className="flex section justify-center flex-col w-4/5 p-4">
+        <div className="grid grid-height grid-rows-1 grid-flow-col gap-4">
+          <div className="border rounded-lg border-[#82c0cc] p-2">
+            <div className="col-section-pic"></div>
+          </div>
+          <div className="c-height-col bg-moonstone rounded-lg border border-[#82c0cc] p-6"></div>
+          <div className="bg-grayish rounded-lg border border-[#82c0cc] p-6"></div>
+        </div>
+        <div className="bg-carribean  bottom-col mt-6 rounded-lg border  p-6"></div>
+      </div>
     </main>
   );
 }
