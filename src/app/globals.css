@@ -19,6 +19,7 @@ main {
 .col-section-pic {
   height: 250px;
   background-size: cover !important;
+  position: relative;
   background: url("https://images.unsplash.com/photo-1703002917693-e51692232c81?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
 }
 
@@ -57,6 +58,30 @@ main {
   height: 300px;
 }
 
+.bottom-col-1 {
+  height: 300px;
+}
+
+.left-col {
+  height: 820px;
+}
+
 .bg-carribean {
   background: #b6dae2;
+}
+
+.bg-brownss {
+  background: #bfaa9b;
+}
+
+.subtitle {
+  font-size: 24px;
+  font-weight: bold;
+  color: #367581;
+}
+
+.custom-pos {
+  position: absolute;
+  bottom: -50px;
+  right: 10px;
 }
