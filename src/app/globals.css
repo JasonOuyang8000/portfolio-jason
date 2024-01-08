@@ -40,7 +40,7 @@ main {
 }
 
 .bg-moonstone {
-  background: #82c0cc;
+  background: #7bbac5;
 }
 .color-ebony {
   color: #636b61;
@@ -84,4 +84,8 @@ main {
   position: absolute;
   bottom: -50px;
   right: 10px;
+}
+
+.title-box {
+  min-width: 450px;
 }
