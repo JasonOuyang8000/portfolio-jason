@@ -89,3 +89,8 @@ main {
 .title-box {
   min-width: 450px;
 }
+
+.inputEmail {
+  font-size: 14px;
+  width: 200px;
+}
