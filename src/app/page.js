@@ -19,18 +19,24 @@ export default function Home() {
         </h1>
         <div className="flex justify-center">
           <div className="mb-2 flex justify-center p-2">
-            <div className="bg-moonstone border-2 border-[#243c5a] rounded-md px-4 py-2 flex items-center justify-center">
-              <FontAwesomeIcon icon={faGithub} style={{ width: "35" }} />
+            <div className="bg-moonstone border-2 border-[#243c5a] rounded-md px-4 py-2 flex items-center justify-center hover:bg-[#518e9b]">
+              <a href="#">
+                <FontAwesomeIcon icon={faGithub} style={{ width: "35" }} />
+              </a>
             </div>
           </div>
           <div className="mb-2 flex justify-center  p-2 ">
-            <div className="bg-moonstone border-2 border-[#243c5a] rounded-md px-4 py-2 flex items-center justify-center">
-              <FontAwesomeIcon icon={faLinkedinIn} style={{ width: "35" }} />
+            <div className="bg-moonstone border-2 border-[#243c5a] rounded-md px-4 py-2 flex items-center justify-center hover:bg-[#518e9b]">
+              <a href="#">
+                <FontAwesomeIcon icon={faLinkedinIn} style={{ width: "35" }} />
+              </a>
             </div>
           </div>
           <div className="mb-2 flex justify-center  p-2 ">
-            <div className="bg-moonstone border-2 border-[#243c5a] rounded-md px-4 py-2 flex items-center justify-center">
-              <FontAwesomeIcon icon={faEnvelope} style={{ width: "35" }} />
+            <div className="bg-moonstone border-2 border-[#243c5a] rounded-md px-4 py-2 flex items-center justify-center hover:bg-[#518e9b]">
+              <a href="#">
+                <FontAwesomeIcon icon={faEnvelope} style={{ width: "35" }} />
+              </a>
             </div>
           </div>
         </div>
